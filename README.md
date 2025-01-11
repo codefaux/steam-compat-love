@@ -1,7 +1,7 @@
 # steam-compat-love
 Steam Compatibility Runtime - LÖVE (Balatro Native Linux)
 
-Quick and dirty because polish isn't my thing. PRs welcome.
+Quick and dirty because polish isn't my thing. I also didn't know how to make custom Steam Compatibility Tools -OR- what Love2d was beyond a surface level, two hours ago. PRs welcome.
 
 Due to how Steam launches executables, and how AppImageLauncher works, you CANNOT use love-11.5-x86_64.AppImage with Steam IF AppImageLauncher is installed.
 If using AppImageLauncher, you must unpack the appimage, and edit launch.sh switching from the AppImage to the love/AppRun line for this to work.
