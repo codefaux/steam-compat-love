@@ -1,0 +1,13 @@
+"compatibilitytools"
+{
+  "compat_tools"
+  {
+    "love-launcher"
+    {
+      "install_path" "."
+      "display_name" "love-launcher"
+      "from_oslist"  "windows"
+      "to_oslist"    "linux"
+    }
+  }
+}
