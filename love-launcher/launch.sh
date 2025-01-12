@@ -21,7 +21,7 @@ is_windows_executable() {
 
 # Function to check if the file has a ZIP structure and contains main.lua
 has_zip_with_main_lua() {
-    if unzip -l "$1" | grep -q "main.lua"; then
+    if unzip -qq -l "$1" 2>/dev/null | grep -q "main.lua"; then
         return 0
     else
         return 1
